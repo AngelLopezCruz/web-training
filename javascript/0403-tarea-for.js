@@ -8,3 +8,29 @@
  * siguiente
  * - Para numeros divisibles por 3 y 5 - imprime la palabra "FizzBuzz"
  */
+//if (numeroActual % 2 == 0)
+
+let numeroInicio = 1;
+let numeroFinal = 100;
+let divisible = 3;
+let divisible2 = 5; 
+
+//divisible 3
+for (let i = 1; i <= numeroFinal; i++){ 
+
+if (i % divisible == 0)
+{ 
+console.log("fuzz");
+
+  }
+  if (i % divisible2 == 0){ 
+  console.log("buzz");
+  }
+  
+}
+
+
+
+
+
+
