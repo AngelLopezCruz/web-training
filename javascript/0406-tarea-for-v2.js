@@ -19,3 +19,14 @@
  * 
  * https://omegaup.com/arena/problem/Encuentra-el-mayor#problems
  */
+
+let numeros = [80,2,3,50,8,1];
+let mayor = numeros[0];
+
+for (let i = 1; i < numeros.length; i++){
+    if( mayor < numeros[i]){
+        mayor = numeros[i];
+    }
+}
+
+console.log(mayor);
