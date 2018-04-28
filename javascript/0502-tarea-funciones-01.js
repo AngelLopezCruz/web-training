@@ -10,9 +10,20 @@
 // aprobados: 1
 // reprobados: 6
 
-function contarAprobados(listaDeCalificaciones) {
-  // Aqui esta tu tarea
-}
+function contarAprobados(listaDeCalificaciones) { 
+  let conteo = {
+  aprobados: 0,
+  repobrados: 0
+  };
+  
+  for(let i = 0; i <= listaDeCalificaciones.length; i++){ 
+    if (listaDeCalificaciones[i] >= 7) {
+      conteo.aprobados++;
+    } else {
+      conteo.repobrados++;
+    }        
+  } 
+} 
 
 lista = [1, 5, 2, 5, 8, 3, 2]
 resultado = contarAprobados(lista);
