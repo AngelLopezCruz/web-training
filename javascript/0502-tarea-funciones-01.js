@@ -12,20 +12,20 @@
 
 function contarAprobados(listaDeCalificaciones) { 
   let conteo = {
-  aprobados: 0,
-  repobrados: 0
+    aprobados: 0,
+    reprobados: 0
   };
   
-  for(let i = 0; i <= listaDeCalificaciones.length; i++){ 
+  for(let i = 0; i < listaDeCalificaciones.length; i++){ 
     if (listaDeCalificaciones[i] >= 7) {
       conteo.aprobados++;
     } else {
-      conteo.repobrados++;
+      conteo.reprobados++;
     }        
-  } 
+  }
+  return conteo; 
 } 
 
-lista = [1, 5, 2, 5, 8, 3, 2]
-resultado = contarAprobados(lista);
-
+lista = [1, 5, 7, 5, 8, 3, 2]
+resultado = contarAprobados(lista)
 console.log(resultado);

@@ -26,3 +26,6 @@ function contarParesEImpares(listaDeNumeros) {
   return conteo;
 }
 
+lista = [1, 5, 2, 5, 8, 3, 2]
+resultado = contarParesEImpares(lista)
+console.log(resultado);
