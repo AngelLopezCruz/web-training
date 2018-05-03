@@ -1,4 +1,5 @@
 // https://omegaup.com/arena/problem/Coleccionista/#problems
+// https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array
 
 // function encontrarFaltante(numElementos, elementosActuales) {
 //   for (let i = 1; i <= N; i++) {
